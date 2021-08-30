@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		CA0E023A26DD066500C2494F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E023926DD066500C2494F /* AppDelegate.swift */; };
 		CA0E023C26DD066500C2494F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E023B26DD066500C2494F /* SceneDelegate.swift */; };
-		CA0E023E26DD066500C2494F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E023D26DD066500C2494F /* ViewController.swift */; };
+		CA0E023E26DD066500C2494F /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E023D26DD066500C2494F /* OperationsViewController.swift */; };
 		CA0E024126DD066500C2494F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0E023F26DD066500C2494F /* Main.storyboard */; };
 		CA0E024326DD066700C2494F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0E024226DD066700C2494F /* Assets.xcassets */; };
 		CA0E024626DD066700C2494F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0E024426DD066700C2494F /* LaunchScreen.storyboard */; };
+		CA0E025326DD07C300C2494F /* operations.json in Resources */ = {isa = PBXBuildFile; fileRef = CA0E025226DD07C300C2494F /* operations.json */; };
+		CA0E025826DD2F1000C2494F /* OperationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E025726DD2F1000C2494F /* OperationsPresenter.swift */; };
+		CA0E025A26DD2F7200C2494F /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0E025926DD2F7200C2494F /* Operation.swift */; };
+		CA99BD1E26DD513900B2643B /* CashWithdrawalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD1C26DD513900B2643B /* CashWithdrawalTableViewCell.swift */; };
+		CA99BD1F26DD513900B2643B /* CashWithdrawalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD1D26DD513900B2643B /* CashWithdrawalTableViewCell.xib */; };
+		CA99BD2326DD515900B2643B /* ChargeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD2126DD515900B2643B /* ChargeTableViewCell.swift */; };
+		CA99BD2426DD515900B2643B /* ChargeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD2226DD515900B2643B /* ChargeTableViewCell.xib */; };
+		CA99BD2A26DD6B5A00B2643B /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD2826DD6B5A00B2643B /* IncomeTableViewCell.swift */; };
+		CA99BD2B26DD6B5A00B2643B /* IncomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA99BD2926DD6B5A00B2643B /* IncomeTableViewCell.xib */; };
+		CA99BD2E26DD710800B2643B /* OperationsPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD2D26DD710800B2643B /* OperationsPresenterDelegate.swift */; };
+		CA99BD3026DD717600B2643B /* CellSelectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD2F26DD717600B2643B /* CellSelectionDelegate.swift */; };
+		CA99BD3226DD756E00B2643B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99BD3126DD756E00B2643B /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA0E023626DD066500C2494F /* NikitaTestMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikitaTestMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0E023926DD066500C2494F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA0E023B26DD066500C2494F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA0E023D26DD066500C2494F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA0E023D26DD066500C2494F /* OperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
 		CA0E024026DD066500C2494F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA0E024226DD066700C2494F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA0E024526DD066700C2494F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0E024726DD066700C2494F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0E025226DD07C300C2494F /* operations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = operations.json; sourceTree = "<group>"; };
+		CA0E025726DD2F1000C2494F /* OperationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsPresenter.swift; sourceTree = "<group>"; };
+		CA0E025926DD2F7200C2494F /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		CA99BD1C26DD513900B2643B /* CashWithdrawalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWithdrawalTableViewCell.swift; sourceTree = "<group>"; };
+		CA99BD1D26DD513900B2643B /* CashWithdrawalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CashWithdrawalTableViewCell.xib; sourceTree = "<group>"; };
+		CA99BD2126DD515900B2643B /* ChargeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeTableViewCell.swift; sourceTree = "<group>"; };
+		CA99BD2226DD515900B2643B /* ChargeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChargeTableViewCell.xib; sourceTree = "<group>"; };
+		CA99BD2826DD6B5A00B2643B /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
+		CA99BD2926DD6B5A00B2643B /* IncomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomeTableViewCell.xib; sourceTree = "<group>"; };
+		CA99BD2D26DD710800B2643B /* OperationsPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsPresenterDelegate.swift; sourceTree = "<group>"; };
+		CA99BD2F26DD717600B2643B /* CellSelectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSelectionDelegate.swift; sourceTree = "<group>"; };
+		CA99BD3126DD756E00B2643B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,123 @@
 		CA0E023826DD066500C2494F /* NikitaTestMVP */ = {
 			isa = PBXGroup;
 			children = (
-				CA0E023926DD066500C2494F /* AppDelegate.swift */,
-				CA0E023B26DD066500C2494F /* SceneDelegate.swift */,
-				CA0E023D26DD066500C2494F /* ViewController.swift */,
+				CA99BD2C26DD70E900B2643B /* Protocols */,
+				CA0E025626DD2EEA00C2494F /* Presenters */,
+				CA0E025526DD2EE000C2494F /* Views */,
+				CA0E025426DD2EC000C2494F /* Models */,
+				CA0E025126DD078C00C2494F /* Data */,
+				CA0E025026DD06FF00C2494F /* Suporting Files */,
+				CA0E024F26DD06A600C2494F /* AppLifeCycle */,
+				CA0E024D26DD067500C2494F /* Assets */,
 				CA0E023F26DD066500C2494F /* Main.storyboard */,
-				CA0E024226DD066700C2494F /* Assets.xcassets */,
-				CA0E024426DD066700C2494F /* LaunchScreen.storyboard */,
-				CA0E024726DD066700C2494F /* Info.plist */,
 			);
 			path = NikitaTestMVP;
+			sourceTree = "<group>";
+		};
+		CA0E024D26DD067500C2494F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E024226DD066700C2494F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CA0E024F26DD06A600C2494F /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E023926DD066500C2494F /* AppDelegate.swift */,
+				CA0E023B26DD066500C2494F /* SceneDelegate.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
+		CA0E025026DD06FF00C2494F /* Suporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E024726DD066700C2494F /* Info.plist */,
+				CA0E024426DD066700C2494F /* LaunchScreen.storyboard */,
+			);
+			name = "Suporting Files";
+			sourceTree = "<group>";
+		};
+		CA0E025126DD078C00C2494F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E025226DD07C300C2494F /* operations.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CA0E025426DD2EC000C2494F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E025926DD2F7200C2494F /* Operation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA0E025526DD2EE000C2494F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD1A26DD50DD00B2643B /* Cells */,
+				CA0E023D26DD066500C2494F /* OperationsViewController.swift */,
+				CA99BD3126DD756E00B2643B /* DetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA0E025626DD2EEA00C2494F /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E025726DD2F1000C2494F /* OperationsPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		CA99BD1A26DD50DD00B2643B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD2526DD519600B2643B /* Income */,
+				CA99BD2026DD514200B2643B /* Charge */,
+				CA99BD1B26DD511E00B2643B /* CashWithdrawal */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CA99BD1B26DD511E00B2643B /* CashWithdrawal */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD1C26DD513900B2643B /* CashWithdrawalTableViewCell.swift */,
+				CA99BD1D26DD513900B2643B /* CashWithdrawalTableViewCell.xib */,
+			);
+			path = CashWithdrawal;
+			sourceTree = "<group>";
+		};
+		CA99BD2026DD514200B2643B /* Charge */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD2126DD515900B2643B /* ChargeTableViewCell.swift */,
+				CA99BD2226DD515900B2643B /* ChargeTableViewCell.xib */,
+			);
+			path = Charge;
+			sourceTree = "<group>";
+		};
+		CA99BD2526DD519600B2643B /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD2826DD6B5A00B2643B /* IncomeTableViewCell.swift */,
+				CA99BD2926DD6B5A00B2643B /* IncomeTableViewCell.xib */,
+			);
+			path = Income;
+			sourceTree = "<group>";
+		};
+		CA99BD2C26DD70E900B2643B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CA99BD2D26DD710800B2643B /* OperationsPresenterDelegate.swift */,
+				CA99BD2F26DD717600B2643B /* CellSelectionDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +259,10 @@
 				CA0E024626DD066700C2494F /* LaunchScreen.storyboard in Resources */,
 				CA0E024326DD066700C2494F /* Assets.xcassets in Resources */,
 				CA0E024126DD066500C2494F /* Main.storyboard in Resources */,
+				CA99BD2426DD515900B2643B /* ChargeTableViewCell.xib in Resources */,
+				CA99BD2B26DD6B5A00B2643B /* IncomeTableViewCell.xib in Resources */,
+				CA0E025326DD07C300C2494F /* operations.json in Resources */,
+				CA99BD1F26DD513900B2643B /* CashWithdrawalTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +273,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA0E023E26DD066500C2494F /* ViewController.swift in Sources */,
+				CA0E023E26DD066500C2494F /* OperationsViewController.swift in Sources */,
 				CA0E023A26DD066500C2494F /* AppDelegate.swift in Sources */,
+				CA99BD2A26DD6B5A00B2643B /* IncomeTableViewCell.swift in Sources */,
+				CA99BD3226DD756E00B2643B /* DetailsViewController.swift in Sources */,
+				CA99BD3026DD717600B2643B /* CellSelectionDelegate.swift in Sources */,
+				CA0E025826DD2F1000C2494F /* OperationsPresenter.swift in Sources */,
+				CA99BD1E26DD513900B2643B /* CashWithdrawalTableViewCell.swift in Sources */,
+				CA99BD2E26DD710800B2643B /* OperationsPresenterDelegate.swift in Sources */,
+				CA0E025A26DD2F7200C2494F /* Operation.swift in Sources */,
+				CA99BD2326DD515900B2643B /* ChargeTableViewCell.swift in Sources */,
 				CA0E023C26DD066500C2494F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
