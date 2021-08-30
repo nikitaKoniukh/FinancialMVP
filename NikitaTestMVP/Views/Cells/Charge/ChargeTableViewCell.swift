@@ -16,7 +16,7 @@ class ChargeTableViewCell: UITableViewCell {
     var indexPath: IndexPath?
     
     func configureCell(operation: Operation, indexPath: IndexPath) {
-        amountLabel.text = String(operation.amount)
+        amountLabel.text = "$\(String(operation.amount))" 
         operationDescLabel.text = operation.operationDesc
         self.indexPath = indexPath
     }

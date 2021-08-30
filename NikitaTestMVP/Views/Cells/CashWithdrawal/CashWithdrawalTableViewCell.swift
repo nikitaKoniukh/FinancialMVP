@@ -30,7 +30,7 @@ class CashWithdrawalTableViewCell: UITableViewCell {
     
     
     func configureCell(operation: Operation, indexPath: IndexPath) {
-        amountLabel.text = String(operation.amount)
+        amountLabel.text = "$\(String(operation.amount))" 
         sourceLabel.text = operation.source
         addresLabel.text = operation.address
         self.indexPath = indexPath
