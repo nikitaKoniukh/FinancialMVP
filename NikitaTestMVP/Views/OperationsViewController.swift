@@ -23,7 +23,8 @@ class OperationsViewController: UIViewController {
         initialization()
     }
     
-    private func initialization() {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         // navigation controller
         title = "Financial operations"
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -31,6 +32,9 @@ class OperationsViewController: UIViewController {
         // search bar
         searchBar.placeholder = "Search"
         searchBar.delegate = self
+    }
+    
+    private func initialization() {
         
         // tableview
         tableView.delegate = self
